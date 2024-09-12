@@ -140,8 +140,9 @@ class Villian(AirSuperHero):
 monster1 = Villian('Mike', 'rhinoceros', 'power', 100, 'AAGGGHHHH',
                    90)
 monster1.crit()
+monster1.new_phrase()
 monster1.heros_name()
 monster1.new_heros_health_points()
 print(monster1)
 print(f'длина коронный фразы злодея: {len(monster1)}')
-monster1.new_phrase()
+print(f'урон: {monster1.damage}')
